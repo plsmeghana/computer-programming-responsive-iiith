@@ -1,3 +1,11 @@
+function disable()
+{
+	document.getElementById('userInput').disabled=true;
+}
+function enable()
+{
+	document.getElementsById('userInput').disabled=false;
+}
 window.view = {
 	numbers: new Array(),
 	lastRedDiv: new Object(),
@@ -87,6 +95,7 @@ window.view = {
 			this.generateRandomNumbers()
 		else if (element[1].checked)
 			this.getUserInput()
+                this.disableButton('userInput');
 	},
 	createBoxes: function() {
 		for ( i = 0 ; i < this.numbers.length ; i++ ) {
