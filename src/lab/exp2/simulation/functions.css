@@ -1,4 +1,6 @@
-*{padding: 0 ; margin: 0 ;}
+*{padding: 0 ;
+ margin: 0 ;
+}
 
 body {
 	min-height: 564px;
@@ -226,7 +228,7 @@ body {
     border-radius: 3px;
 }
 
-.imageSquare, .imageRectangle, .imageTriangle, .imageCircle {
+.imageSquare, .imageRightangle, .imageTriangle, .imageCircle {
     position: absolute;
     height: 49%;
     width: 49%;
@@ -237,7 +239,7 @@ body {
     opacity: 0.3;
 }
 
-.imageSquare:hover, .imageRectangle:hover, .imageTriangle:hover, .imageCircle:hover {
+.imageSquare:hover, .imageRightangle:hover, .imageTriangle:hover, .imageCircle:hover {
     opacity: 1;
 }
 
@@ -248,10 +250,10 @@ body {
     border: 1px dashed black;
 }
 
-.imageRectangle {
+.imageRightangle {
     left: 50%;
     top: 0%;
-    background-image: url('rectangle.jpg');
+    background-image: url('rightangle.jpeg');
     border: 1px dashed black;
 }
 
@@ -291,14 +293,14 @@ body {
 	height: 41px;
 }
 
-.functionForSquare, .functionForRectangle, .functionForTriangle, .functionForCircle {
+.functionForSquare, .functionForRightangle, .functionForTriangle, .functionForCircle {
     font-size: 17px;
     position: absolute;
     left: 0%;
     width: 100%;
 }
 
-.functionForSquare, .functionForRectangle, .functionForTriangle{
+.functionForSquare, .functionForRightangle, .functionForTriangle{
     border-bottom: 1px dashed #CCC;
 }
 
@@ -373,7 +375,7 @@ body {
     display: block;
 }
 
-#functionSquare, #functionRectangle, #functionCircle, #functionTriangle {
+#functionSquare, #functionRightangle, #functionCircle, #functionTriangle {
 	margin-left: 30%;
 	text-align: left;
 }
@@ -398,7 +400,7 @@ body {
     padding-top: 1.8vmin; 
 }
 
-.functionForSquare, .functionForRectangle, .functionForTriangle, .functionForCircle {
+.functionForSquare, .functionForRightangle, .functionForTriangle, .functionForCircle {
     height: 24.9%;
     overflow: auto;
 }
@@ -407,7 +409,7 @@ body {
     top: 0%;
 }
 
-.functionForRectangle {
+.functionForRightangle {
     top: 25%;
 }
 
@@ -463,7 +465,7 @@ body {
     padding-top: 1.9vmin; 
 }
 
-.functionForSquare, .functionForRectangle, .functionForTriangle, .functionForCircle {
+.functionForSquare, .functionForRightangle, .functionForTriangle, .functionForCircle {
     height: 160px;
 }
 
@@ -471,7 +473,7 @@ body {
     top: 0px;
 }
 
-.functionForRectangle {
+.functionForRightangle {
     top: 164px;
 }
 
